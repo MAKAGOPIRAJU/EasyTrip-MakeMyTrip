@@ -16,9 +16,7 @@ public class Flight {
 
     private double duration;
 
-    public Flight() {
-
-    }
+    public Flight() {}
 
     public Flight(int flightId, City fromCity, City toCity, int maxCapacity, Date flightDate, double duration) {
         this.flightId = flightId;

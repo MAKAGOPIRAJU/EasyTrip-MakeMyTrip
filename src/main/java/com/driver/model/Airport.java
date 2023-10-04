@@ -10,8 +10,7 @@ public class Airport {
 
     private City city;  //GIVEN : There will be only 1 airport in 1 city
 
-    public Airport() {
-    }
+    public Airport() {}
 
     public Airport(String airportName, int noOfTerminals, City city) {
         this.airportName = airportName;
